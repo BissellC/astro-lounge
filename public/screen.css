@@ -10,3 +10,164 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+nav {
+  background-color: rgb(81, 51, 166);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a:hover {
+  background-color: rgb(254, 192, 47);
+}
+
+.nav-right a {
+  padding: 1rem;
+}
+
+.nav-left a {
+  text-decoration: none;
+  font-size: 24px;
+  margin-left: 0.5rem;
+}
+
+.main-image {
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.explore {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.upcoming-header {
+  background-color: rgb(254, 192, 47);
+}
+
+.upcoming-header p {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0;
+}
+
+.upcoming-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgb(237, 237, 237);
+  padding: 1rem;
+  width: 10000px;
+  border-radius: 10px;
+}
+
+.mission-statement-container {
+  background-color: rgb(209, 197, 232);
+}
+
+.mission-statement-header {
+  padding: 1.25rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(33, 33, 33);
+}
+
+.mission-statement {
+  text-align: center;
+  font-size: 19px;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  color: rgb(33, 33, 33);
+}
+
+footer {
+  background-color: rgb(103, 64, 180);
+}
+
+footer p {
+  padding: 2rem;
+  margin: 0;
+  color: rgb(204, 204, 204);
+  text-align: center;
+}
+
+footer a {
+  color: rgb(204, 204, 204);
+}
+
+.copyright-title {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright,
+.title {
+  font-size: 13px;
+}
+
+.title {
+  margin-left: 0.25rem;
+}
+
+.copyright {
+  border-right: 1px solid;
+  padding-right: 0.25rem;
+}
+
+.left-arrow,
+.right-arrow {
+  font-weight: bolder;
+  background-color: rgb(254, 192, 47);
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  border-radius: 0px 15px 15px 0px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.ship-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.launch-info {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.timer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(169, 169, 169);
+}
+
+.location {
+  padding-top: 0.5rem;
+}
