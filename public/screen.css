@@ -141,23 +141,25 @@ footer a {
 
 .left-arrow,
 .right-arrow {
-  font-weight: bolder;
+  font-size: 32px;
   background-color: rgb(254, 192, 47);
   margin-top: 6rem;
   margin-bottom: 6rem;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 20px 20px 0px;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
-.ship-name {
+.right-arrow {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.ship-name-c {
   text-align: center;
   font-weight: bold;
 }
 
-.launch-info {
+.launch-info-c {
   border-bottom: 1px solid rgb(169, 169, 169);
   padding-bottom: 0.5rem;
   padding-top: 1rem;
@@ -169,6 +171,6 @@ footer a {
   border-bottom: 1px solid rgb(169, 169, 169);
 }
 
-.location {
+.location-c {
   padding-top: 0.5rem;
 }

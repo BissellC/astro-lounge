@@ -6,6 +6,10 @@
     <title>Astro Lounge</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <script
+      src="https://kit.fontawesome.com/594b2052c3.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
@@ -32,19 +36,33 @@
     </section>
 
     <section class="upcoming-info">
-      <button class="left-arrow">&lt;</button>
+      <button class="left-arrow"><i class="fas fa-angle-left"></i></button>
       <section class="info-container">
-        <header class="ship-name"></header>
-        <section class="launch-info"></section>
+        <header class="ship-name-c">
+          <span class="ship-icon"><i class="fas fa-space-shuttle"></i> </span>
+          <span class="ship-name"></span>
+        </header>
+        <section class="launch-info-c">
+          <span class="launch-info-icon">
+            <i class="fas fa-info-circle"></i>
+          </span>
+          <span class="launch-info"></span>
+        </section>
         <section class="timer">
+          <span class="timer-icon"><i class="fas fa-clock"></i></span>
           <span class="days"></span>
           <span class="hours"></span>
           <span class="minutes"></span>
           <span class="seconds"></span>
         </section>
-        <section class="location"></section>
+        <section class="location-c">
+          <span class="location-icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </span>
+          <span class="location"></span>
+        </section>
       </section>
-      <button class="right-arrow">&gt;</button>
+      <button class="right-arrow"><i class="fas fa-angle-right"></i></button>
     </section>
 
     <section class="mission-statement-container">

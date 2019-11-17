@@ -24,8 +24,11 @@ const displayPotd = potdData => {
 }
 //display copyright and title
 const displayCredentials = potdData => {
-  document.querySelector('.copyright').textContent =
-    'copyright: ' + potdData.copyright
+  if (potdData.copyright === null) {
+    document.querySelector('.copyright').textContent = 'copyright: no copyright'
+  } else
+    document.querySelector('.copyright').textContent =
+      'copyright: ' + potdData.copyright
   document.querySelector('.title').textContent = 'title: ' + potdData.title
 }
 //retrieve launch data
